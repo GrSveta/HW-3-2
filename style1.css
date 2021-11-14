@@ -1,0 +1,21 @@
+.spisok {
+   list-style:none;
+    margin: 0;
+    padding: 0;
+    text-align:center;
+}
+.spisok li{display:inline;}
+.empty {text-decoration: line-through;}
+.top {list-style: none;}
+.top li:before{content:'🌿'}
+p:first-line { font-size:130%}
+p:first-letter {color:red}
+img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  }
+body p:nth-of-type(even) img {
+  float: right;
+}
+p {text-align-last: center}
